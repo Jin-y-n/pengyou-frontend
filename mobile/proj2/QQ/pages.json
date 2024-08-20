@@ -1,0 +1,101 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+	    {
+			"path" : "pages/login/login",
+			"style" :
+			{
+				"navigationBarTitleText" : "",
+				"navigationBarBackgroundColor": "#ffffff",
+				"backgroundColor": "#ffffff"
+			}
+		},
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "圈圈",
+				"navigationBarTextStyle": "black",
+				"navigationBarBackgroundColor": "#F8F8F8",
+				"backgroundColor": "#F8F8F8"
+			}
+		},
+		
+		{
+			"path" : "pages/my/my",
+			"style" : 
+			{
+				"navigationBarTitleText" : "圈圈",
+				"navigationBarTextStyle": "black",
+				"navigationBarBackgroundColor": "#F8F8F8",
+				"backgroundColor": "#F8F8F8"
+			}
+		},
+		{
+			"path" : "pages/forget/forget",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"navigationBarTextStyle": "black",
+				"navigationBarBackgroundColor": "#ffffff",
+				"backgroundColor": "#F8F8F8"
+			}
+		},
+		{
+			"path" : "pages/register/register",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"navigationBarTextStyle": "black",
+				"navigationBarBackgroundColor": "#ffffff",
+				"backgroundColor": "#F8F8F8"
+			}
+		},
+		{
+			"path" : "pages/message/message",
+			"style" : 
+			{
+				"navigationBarTitleText" : "圈圈",
+				"navigationBarTextStyle": "black",
+				"navigationBarBackgroundColor": "#F8F8F8",
+				"backgroundColor": "#F8F8F8"
+			}
+		},
+		{
+			"path" : "pages/chat/chat",
+			"style":
+			{
+				 "navigationStyle": "custom"
+			}	
+		}
+	],
+
+	"uniIdRouter": {},
+		// 设置底部菜单
+		"tabBar": {
+			"backgroundColor": "#dcdcdc",
+			"selectColor":"#55aaff",
+			"color": "#000000",
+			"borderStyle": "#fff",
+			"list": [
+				{
+					"pagePath":"pages/message/message",
+					"iconPath": "static/icon1/消息.png",
+					"selectedIconPath": "static/icon1/消息active.png",
+					"text": "消息"
+				},
+				{
+					"pagePath":"pages/index/index",
+					"iconPath":"static/icon1/首页.png",
+					"selectedIconPath": "static/icon1/首页active.png",
+					"text": "首页"
+				},
+				{
+					"pagePath":"pages/my/my",
+					"iconPath": "static/icon1/我的.png",
+					"selectedIconPath": "static/icon1/我的active.png",
+					"text": "我的"
+				}
+			]
+		}
+	}
+	
+}
